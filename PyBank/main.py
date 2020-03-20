@@ -1,9 +1,9 @@
 import os
 import csv
 profit_loss=[]
-
+pl_summary={}
 # Import input csv file
-input_csv_filepath = os.path.join('Resources/budget_data.csv')
+input_csv_filepath = os.path.join('budget.csv')
 
 with open (input_csv_filepath, 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ',')
@@ -58,7 +58,7 @@ with open (input_csv_filepath, 'r') as csvfile:
     print(f"Greatest Decrease in Profits: {min_month} (${max_decrease})")
 
 # Define path for output text file
-output_txt_filepath = os.path.join('Output/FinancialSummary.txt')
+output_txt_filepath = os.path.join('FinancialSummary.txt')
 
 # Open the output file to begin writing the summary into it
 text_file=open(output_txt_filepath, 'w')
