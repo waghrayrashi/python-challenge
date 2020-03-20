@@ -1,0 +1,11 @@
+Election Results
+----------------------------------
+Total Votes: 3521001
+----------------------------------
+{person}: {candidate_percent_votes[person]} ({vote_count})'
+{person}: {candidate_percent_votes[person]} ({vote_count})'
+{person}: {candidate_percent_votes[person]} ({vote_count})'
+{person}: {candidate_percent_votes[person]} ({vote_count})'
+------------------------------------
+Winner: Khan
+------------------------------------
