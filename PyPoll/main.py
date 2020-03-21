@@ -59,10 +59,10 @@ text_file=open(output_txt_filepath, 'w')
 # write the summary to the text file
 text_file.write("Election Results")
 text_file.write("\n----------------------------------")
-text_file.write('\nTotal Votes: '+str(total_votes))
+text_file.write('\nTotal Votes: '+ str(total_votes))
 text_file.write('\n----------------------------------')
 for person, vote_count in candidate_votes.items():
-    text_file.write(f'\n'"{person}: {candidate_percent_votes[person]} ({vote_count})'")
+    text_file.write(f'\n{person}: {candidate_percent_votes[person]} ({vote_count})')
 text_file.write('\n------------------------------------')
 text_file.write(f"\nWinner: {winner}")
 text_file.write('\n------------------------------------')
